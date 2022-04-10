@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(251, 241, 241);
+    background-image: linear-gradient(rgb(209, 101, 97), rgb(112, 240, 232));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.source-header {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid green; */
+    padding: 10px 0 10px 0;
+}
+
+.links ol{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* border: 2px solid red; */
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 179, 255);
+}
