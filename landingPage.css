@@ -36,7 +36,7 @@
 .logo-name {
     color: white;
     width: 5.5em;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.05em;
     font-size: 24px;
     margin-left: 3px;
 }
@@ -59,7 +59,7 @@ ul {
     list-style: none;
 }
 
-a:hover {
+.links a:hover {
     text-decoration: underline;
     text-decoration-color: red;
 }
@@ -176,9 +176,9 @@ p {
     flex-direction: row;
     justify-content: space-around;
     margin: 0 2.5em;
-    /* flex-wrap: wrap; */
     flex-flow: row wrap;
-    padding: 0px 24px 96px 24px;
+    padding: 40px 24px 96px 24px;
+    border: 2px solid red;
 }
 
 .title {
@@ -192,11 +192,9 @@ p {
 
 .supra, .skyline, .r35, .rx7 {
     width: 12em;
-    height: 14em;
+    height: 12em;
     object-fit: cover;
-    border: 0.3em solid rgb(255, 255, 255);
-    border-radius: 1.5em;
-    box-shadow: 0 10px 30px black;
+    border-radius: 10px;
     transition: 0.3s;
     margin: -0.5em -1em -1em -1em;
 }
@@ -227,12 +225,12 @@ p {
 .r35:hover,
 .rx7:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 30px rgb(54, 57, 57);
+    box-shadow: 0 0 30px rgb(206, 105, 54);
 }
 
 .section3 {
     display: flex;
-    /* border: 2px solid red; */
+    /* border: 2px solid rgb(0, 255, 208); */
     align-items: center;
 }
 
@@ -263,4 +261,74 @@ p {
     text-align: center;
     margin-top: 2em;
     font-size: 2em;
+}
+
+.section4 {
+    /* border: 2px solid red; */
+    padding: 5em 3em 0 3em;
+    /* margin: 0 5em 0 5em; */
+}
+
+.section4-A {
+    background-color: #3882F6;
+    border-radius: 0.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5em 0;
+    margin-bottom: 10em;
+}
+
+.section4-content {
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 2em 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 2em;
+}
+
+.section4-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0 2em 0 0;
+    /* border: 2px solid orange; */
+    gap: 4px;
+}
+
+.subtext-header {
+    font-size: 20px;
+    font-family: "sunflower";
+    font-weight: bold;
+}
+
+.section4-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5em 0 3em;
+}
+
+.bttn {
+    border: 0.15em solid white;
+    background-color: #3882F6;
+    border-radius: 0.3em;
+    padding: 8px 30px;
+    color: white;
+}
+
+.bttn:hover {
+    background-color: black;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+}
+
+.footer p {
+    color: white;
+    font-size: 1em;
 }

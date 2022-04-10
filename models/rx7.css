@@ -10,89 +10,16 @@ body {
     flex-direction: column;
 }
 
-.navigation {
-    display: flex;
-    background-color: #1F2937;
-    /* border: 5px solid red; */
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-.leftBarContainer {
-    display: flex;
-    /* border: 5px solid orange; */
-    flex-direction: row;
-    align-items: center;
-    width: 16em;
-    flex-shrink: 0;
-}
-
-.logo-container {
-    margin: 0.7em 0 0.7em 2.5vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    text-decoration: none;
-}
-
-.logo-image {
-    width: 5em;
-    border-radius: 50%;
-    margin: 10;
-}
-
-.logo-name {
-    color: white;
-    width: 5.5em;
-    letter-spacing: 0.05em;
-    font-size: 24px;
-    margin-left: 3px;
-}
-
-.links {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    gap: 30px;
-    /* border: 1px solid red; */
-    padding: 10px;
-}
-
-.links a {
-    text-decoration: none;
-    color: #e5e7eb;
-}
-
-ul {
-    list-style: none;
-}
-
-.links a:hover {
-    text-decoration: underline;
-    text-decoration-color: red;
-}
-
-.rightBarContainer {
-    /* border: 1px solid yellow; */
-    margin: 10px;
-    padding: 5px;
-}
-
 
 .backgroundContainer {
     display: flex;
     width: auto;
     height: 10%;
-    /* border: 3px solid red; */
 }
 
 .image {
     width: 100%;
     height: 100%;
-    /* border: 2px solid yellow; */
 }
 
 .content {
@@ -103,7 +30,7 @@ ul {
     /* align-content: center; */
 }
 
-.progress-bar-container:not(:last-child){
+.progress-bar-container:not(:last-child) {
     margin-bottom: 50px;
 }
 
@@ -148,11 +75,11 @@ ul {
 }
 
 .hrspwr {
-    width: 55%;
+    width: 45%;
 }
 
 .trq {
-    width: 50%;
+    width: 40%;
 }
 
 @keyframes progress {
@@ -173,9 +100,9 @@ ul {
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
-} 
+}
 
-.sourceContainer a:hover{
+a:hover {
     text-decoration: underline;
     text-decoration-color: #eee;
 }
