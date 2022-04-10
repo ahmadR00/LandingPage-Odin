@@ -178,7 +178,7 @@ p {
     margin: 0 2.5em;
     flex-flow: row wrap;
     padding: 40px 24px 96px 24px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .title {
